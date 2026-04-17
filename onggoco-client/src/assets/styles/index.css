@@ -2,10 +2,55 @@
 
 @layer base {
   body {
-    @apply bg-zinc-100 text-zinc-900 antialiased;
+    font-family: 'Montserrat', Arial, sans-serif;
+    background: #f7fafc;
+    color: #1a237e; 
+    letter-spacing: 0.01em;
+    line-height: 1.6;
+    antialiased: true;
+    margin: 0;
+    padding: 0;
   }
 
   #root {
-    @apply min-h-screen;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #1a237e; 
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    margin-bottom: 0.5em;
+  }
+
+  a {
+    color: #1a237e;
+    text-decoration: underline;
+    transition: color 0.2s;
+  }
+  a:hover {
+    color: #ffd600;
+  }
+
+  button {
+    background: #ffd600;
+    color: #1a237e;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5em 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+  }
+  button:hover {
+    background: #1a237e;
+    color: #ffd600;
+  }
+
+  p, ul, ol {
+    margin-bottom: 1em;
+    font-size: 1.08em;
   }
 }

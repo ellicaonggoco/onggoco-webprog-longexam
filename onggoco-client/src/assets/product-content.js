@@ -1,6 +1,17 @@
+import campusToteBag from './img/nutotebag.jpg';
+import dailynotepacks from './img/dailynotespacks.jpg';
+import stainlesstumbler from './img/StainlessTumbler.jpg';
+import wirelessStudyLamp from './img/WirelessStudyLamp.jpg';
+import nuhoodie from './img/NUHOODIE.jpg';
+import deskorg from './img/OrganizerKit.avif';
+import idlanyard from './img/NULANYARD.jpg';
+import examweekcarepack from './img/examweekcare.jpg';
+
+
 const products = [
   {
     name: 'campus-tote-bag',
+    image: campusToteBag,
     title: 'Campus Tote Bag',
     category: 'Bags',
     price: 'PHP 499',
@@ -13,6 +24,7 @@ const products = [
   },
   {
     name: 'daily-notes-pack',
+    image: dailynotepacks,
     title: 'Daily Notes Pack',
     category: 'Stationery',
     price: 'PHP 249',
@@ -25,6 +37,7 @@ const products = [
   },
   {
     name: 'stainless-tumbler',
+    image: stainlesstumbler,
     title: 'Stainless Tumbler',
     category: 'Drinkware',
     price: 'PHP 599',
@@ -37,6 +50,7 @@ const products = [
   },
   {
     name: 'wireless-study-lamp',
+    image: wirelessStudyLamp,
     title: 'Wireless Study Lamp',
     category: 'Tech',
     price: 'PHP 899',
@@ -49,6 +63,7 @@ const products = [
   },
   {
     name: 'hoodie-jacket',
+    image: nuhoodie,
     title: 'Hoodie Jacket',
     category: 'Apparel',
     price: 'PHP 1,199',
@@ -61,6 +76,7 @@ const products = [
   },
   {
     name: 'desk-organizer-kit',
+    image: deskorg,
     title: 'Desk Organizer Kit',
     category: 'Workspace',
     price: 'PHP 349',
@@ -73,6 +89,7 @@ const products = [
   },
   {
     name: 'id-lanyard-set',
+    image: idlanyard,
     title: 'ID Lanyard Set',
     category: 'Accessories',
     price: 'PHP 179',
@@ -85,6 +102,7 @@ const products = [
   },
   {
     name: 'exam-week-care-pack',
+    image: examweekcarepack,
     title: 'Exam Week Care Pack',
     category: 'Bundles',
     price: 'PHP 399',

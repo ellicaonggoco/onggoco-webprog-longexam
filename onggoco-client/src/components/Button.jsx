@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 
 const variantClasses = {
-  primary: 'bg-zinc-900 text-zinc-50 hover:bg-zinc-700',
-  secondary: 'bg-zinc-50 text-zinc-900 hover:bg-zinc-200',
+  primary:
+    'bg-[#ffd600] text-[#1a237e] border-[#ffd600] shadow-sm hover:bg-[#ffe066] hover:text-[#1a237e] hover:shadow-md',
+  secondary:
+    'bg-white text-[#1a237e] border-[#1a237e] shadow-sm hover:bg-[#f7fafc] hover:text-[#1a237e] hover:shadow-md',
 };
 
 const Button = ({
@@ -13,7 +15,7 @@ const Button = ({
   className = '',
 }) => {
   const classes = [
-    'inline-flex items-center justify-center rounded-full border-2 border-zinc-900 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.24em] transition',
+    'inline-flex items-center justify-center rounded-2xl border px-7 py-3 text-lg font-bold tracking-wide transition-all duration-150 focus:outline-none focus:ring-2 focus:ring-[#ffd600] focus:ring-offset-2',
     variantClasses[variant] ?? variantClasses.secondary,
     className,
   ]
