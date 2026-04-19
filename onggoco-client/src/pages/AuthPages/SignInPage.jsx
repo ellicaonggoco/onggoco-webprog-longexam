@@ -89,7 +89,6 @@ const SignInPage = () => {
         </div>
 
         <Button
-          to="/auth/signin"
           type="submit"
           variant="primary"
           className={actionButtonClassName}
